@@ -1,5 +1,5 @@
 #!/bin/bash
-#az login --service-principal --username a834aa0a-698a-4c05-be00-2c910790da62 --password 4QRZxIKA_X7R29mQ_sQ_vhIn~q9~-1GkYX --tenant 66e853de-ece3-44dd-9d66-ee6bdf4159d4
+az login --service-principal --username a834aa0a-698a-4c05-be00-2c910790da62 --password 4QRZxIKA_X7R29mQ_sQ_vhIn~q9~-1GkYX --tenant 66e853de-ece3-44dd-9d66-ee6bdf4159d4
 group=vibhor
 username=adminuser
 password='Covid@192021'
