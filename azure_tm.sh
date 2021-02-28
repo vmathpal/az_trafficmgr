@@ -1,8 +1,8 @@
 #!/bin/bash
-export group=vibhor
+group=vibhor
 az group create -g $group -l northeurope
-export username=adminuser
-export password='Covid@192021'
+username=adminuser
+password='Covid@192021'
 
 az vm create \
   -n vm-northeurope \
