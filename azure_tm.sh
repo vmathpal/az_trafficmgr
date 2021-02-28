@@ -1,8 +1,9 @@
 #!/bin/bash
 group=vibhor
-az group create -g $group -l northeurope
 username=adminuser
 password='Covid@192021'
+
+az group create -g $group -l northeurope
 
 az vm create \
   -n vm-northeurope \
