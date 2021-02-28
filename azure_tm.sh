@@ -3,6 +3,7 @@ group=vibhor
 az group create -g $group -l northeurope
 username=adminuser
 password='Covid@192021'
+
 az vm create \
   -n vm-northeurope \
   -g $group \
