@@ -1,4 +1,3 @@
-#!/bin/bash
 group=vibhor
 az group create -g $group -l northeurope
 username=adminuser
