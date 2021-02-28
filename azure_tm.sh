@@ -1,3 +1,4 @@
+#!/bin/bash
 export group=vibhor
 az group create -g $group -l northeurope
 export username=adminuser
