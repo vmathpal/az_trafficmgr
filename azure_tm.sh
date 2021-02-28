@@ -30,9 +30,9 @@ az appservice plan create \
   -l eastus2 \
   --sku S1
   
-appname=demo-web-eastus2-$RANDOM$RANDOM
-az webapp create \
-  -n $appname \
+#appname=demo-web-eastus2-$RANDOM$RANDOM
+#az webapp create \
+ # -n $appname \ 
   -g $group \
   -p web-eastus2-plan
   
