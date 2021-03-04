@@ -53,6 +53,6 @@ az webapp list -g $group --query "[].enabledHostNames" -o jsonc
 az vm list \
   -g $group -d \
   --query "[].{name:name,ip:publicIps,user:osProfile.adminUsername,password:'$password'}" \
-  -o jsonc
+  -o table
   
   
